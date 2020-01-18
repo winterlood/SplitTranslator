@@ -2,11 +2,11 @@
     "manifest_version": 2,
 
     "name": "SplitTranslator",
-    "description": "hello wolrd",
+    "description": "With this, you can read the original and the translated version in one window @Copyrighted By Winterlood",
     "version": "0.0.1",
 
     "browser_action": {
-        "default_title" : "winterlood",
+        "default_title" : "SplitTranslator",
         "default_icon": "image/icon.png"
     },
 

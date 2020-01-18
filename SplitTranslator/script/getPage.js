@@ -10,7 +10,6 @@
         div.style.top = "0";
         div.style.bottom = "0";
         div.style.position="absolute";
-       // div.style.backgroundColor="black";
         return div;
     }
 
@@ -20,7 +19,6 @@
         divL.style.width = "50%";
         divL.style.height = "100%";
         divL.style.float = "left";
-       // divL.style.backgroundColor="red"
         divL.appendChild(makeFrame());
         return divL;
     }
@@ -31,8 +29,7 @@
         divr.style.width = "50%";
         divr.style.height = "100%";
         divr.style.float = "left";
-        //divr.style.backgroundColor="green"
-        divr.appendChild(makeFrame());
+        divr.appendChild(makeTranslateFrame());
         return divr;
     }
 
@@ -51,10 +48,10 @@
         let f1 = document.createElement("embed");
         f1.setAttribute("id","idValue");
         f1.setAttribute("name","name Value");
-        
+        let translateLink = 'https://papago.naver.net/website?locale=ko&source=en&target=ko&url='+link;
         f1.style.width="100%";
         f1.style.height="100%";
-        f1.src = link;
+        f1.src = translateLink;
         return f1;
     }
 
