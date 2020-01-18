@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+
+    "name": "SplitTranslator",
+    "description": "hello wolrd",
+    "version": "0.0.1",
+
+    "browser_action": {
+        "default_title" : "winterlood",
+        "default_icon": "image/icon.png"
+    },
+
+    "background":{
+        "scripts":[
+            "/script/background.js"
+        ],
+        "persistent" : true
+    },
+
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "management",
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+        ]
+}
