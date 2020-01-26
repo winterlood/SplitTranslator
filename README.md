@@ -1,7 +1,9 @@
 Split Translator 
 ==
-> This is Chrome Extension for split chrome browser
+> This is Chrome Extension for split chrome browser<br>
+> use naver [PAPAGO](https://papago.naver.com/) website translate
 
-![](./SplitTranslator/ver0/before.JPG)
-![](./SplitTranslator/ver0/after.JPG)
-![](./SplitTranslator/ver0/after2.JPG)
+Preview
+---
+![](./gifs/splitTranslator.gif)
+
