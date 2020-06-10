@@ -1,20 +1,18 @@
 {
     "manifest_version": 2,
 
-    "name": "SplitTranslator",
+    "name": "catholic-scheduler",
     "description": "With this, you can read the original and the translated version in one window @Copyrighted By Winterlood",
     "version": "0.0.1",
 
     "browser_action": {
-        "default_title" : "SplitTranslator",
+        "default_title": "catholic-scheduler",
         "default_icon": "image/icon.png"
     },
 
-    "background":{
-        "scripts":[
-            "/script/background.js"
-        ],
-        "persistent" : true
+    "background": {
+        "scripts": ["/script/background.js"],
+        "persistent": true
     },
 
     "permissions": [
@@ -25,5 +23,5 @@
         "webRequest",
         "webRequestBlocking",
         "<all_urls>"
-        ]
+    ]
 }
